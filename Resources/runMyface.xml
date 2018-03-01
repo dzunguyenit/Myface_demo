@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="Product on Chrome">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://my.myface.vn/admin/auth" />
+		<parameter name="version" value="2.35" />
+		<classes>
+			<class name="a.product" />
+		</classes>
+	</test>
+	<test name="Product on firefox">
+		<parameter name="browser" value="firefox" />
+		<parameter name="url" value="https://my.myface.vn/admin/auth" />
+		<parameter name="version" value="" />
+		<classes>
+			<class name="a.product" />
+		</classes>
+	</test>
+	<test name="Product on IE">
+		<parameter name="browser" value="ie" />
+		<parameter name="url" value="https://my.myface.vn/admin/auth" />
+		<parameter name="version" value="2.53.1" />
+		<classes>
+			<class name="a.product" />
+		</classes>
+	</test>
+</suite> 
